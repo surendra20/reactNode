@@ -1,0 +1,107 @@
+{
+    "claims": [
+      {
+        "cardTitle": "Top 3",
+        "gridContent": [
+          "Claims Report X",
+          "SODA Report",
+          "SOAAP Report"
+        ]
+      },
+      {
+        "cardTitle": "Report 200",
+        "gridContent": "Claims Report 200",
+        "link": "https://google.com"
+      },
+      {
+        "cardTitle": "Report 300",
+        "gridContent": "Claims Report 300",
+        "link": "https://google.com"
+      },
+      {
+        "cardTitle": "Report 400",
+        "gridContent": "Claims Report 400",
+        "link": "https://google.com"
+      },
+      {
+        "cardTitle": "Report 500",
+        "gridContent": "Claims Report 500",
+        "link": "https://google.com"
+      },
+      {
+        "cardTitle": "Report 550",
+        "gridContent": "Claims Report 550",
+        "link": "https://google.com"
+      }
+    ],
+    "care" : [
+      {
+        "cardTitle": "Top 3",
+        "gridContent": [
+          "Claims Report X",
+          "SODA Report",
+          "SOAAP Report"
+        ]
+      },
+      {
+        "cardTitle": "Report 200",
+        "gridContent": "Care 200",
+        "link": "http://yahoo.com"
+      },
+      {
+        "cardTitle": "Report 300",
+        "gridContent": "Care 300",
+        "link": "http://yahoo.com"
+      },
+      {
+        "cardTitle": "Report 400",
+        "gridContent": "Care 400",
+        "link": "http://yahoo.com"
+      },
+      {
+        "cardTitle": "Report 500",
+        "gridContent": "Care 500",
+        "link": "http://yahoo.com"
+      },
+      {
+        "cardTitle": "Report 550",
+        "gridContent": "Care 550",
+        "link": "http://yahoo.com"
+      }
+    ],
+    "navyblueCard" : [
+      {
+        "cardTitle": "Top 3",
+        "gridContent": [
+          "Claims Report X",
+          "SODA Report",
+          "SOAAP Report"
+        ]
+      },
+      {
+        "cardTitle": "Report 200",
+        "gridContent": "Care 200",
+        "link": "http://stackoverflow.com"
+      },
+      {
+        "cardTitle": "Report 300",
+        "gridContent": "Care 300",
+        "link": "http://stackoverflow.com"
+      },
+      {
+        "cardTitle": "Report 400",
+        "gridContent": "Care 400",
+        "link": "http://stackoverflow.com"
+      },
+      {
+        "cardTitle": "Report 500",
+        "gridContent": "Care 500",
+        "link": "http://stackoverflow.com"
+      },
+      {
+        "cardTitle": "Report 550",
+        "gridContent": "Care 550",
+        "link": "http://stackoverflow.com"
+      }
+    ]
+  }

@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.row
+{max-width:100%;}
+.proto-container {
+  display: flex;
+
+}
+
+label {
+     -Webkit-perspective: 1000px;
+      perspective: 1000px;
+     -Webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      display: inline;
+      width: 100%;
+      height: 388px;
+      position: relative;
+      cursor: pointer;
+}
+
+
+.flip-card {
+     position: relative;
+     height: 100%;
+     width: 100%;
+     -webkit-transform-style: preserve-3d;
+     transform-style: preserve-3d;
+     -webkit-transition: all 600ms;
+     transition: all 600ms;
+     z-index: 20;
+     border-radius:.5rem;
+     justify-content:center;
+     align-content:stretch;
+}
+
+
+.flip-card div{
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     -Webkit-backface-visibility: hidden;
+     backface-visibility: hidden;
+/* padding-top:1rem; */
+     border-radius: 0.5rem;
+     white-space: normal;
+
+}
+
+
+.flip-card .back {
+
+   -webkit-transform: rotateX(180deg);
+   transform: rotateX(180deg);
+   background-color: #4e97d8;
+
+}
+
+.back {
+
+}
+
+
+.front {
+
+display: flex;
+border: 0px solid rgba(1,1,1,0.15);
+justify-content:center;
+flex-direction:inherit;
+}
+
+.front span {
+   line-height: 1.5;
+   font-weight: 500;
+   color: #4198d8;
+   font-size: 1rem;
+   align-content: space-around;
+   justify-content: flex-end;
+   margin-top: 10%;
+}
+
+
+label:hover .flip-card {
+           box-shadow: 0 0px 10px rgba(0,0,0,.3);
+}
+
+input {
+     display: none;
+}
+
+:checked + .flip-card {
+     transform: rotateX(188deg);
+     -webkit-transform: rotateX(180deg);
+}
+
+label:hover :checked + .flip-card {
+     box-shadow: 0 0px 10px rgba(0,0,0,.3);
+}
+
+
+#accordion section, #accordion .pointer, #accordion h1, #accordion p {
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+#accordion {
+  margin-bottom:0px;
+  text-align: left;
+  background-color: #4e97d8;
+}
+
+
+#accordion h1 {
+   line-height:1.2;
+   font-size:14px;
+   background-color: #5da5dc;
+   margin:0;
+   color: #fff;
+   padding: 10px 10px 10px 10px;
+}
+
+#accordion h1:hover {
+
+   background-color: #4e97d8;
+   padding-left: 20px;
+}
+
+#accordion section {
+   color: #fff;
+   transition:600ms;
+   font-size: 0.8rem;
+}
+
+#accordion p {
+   padding:0 10px;
+   font-size: 12px;
+   color: #fff;
+   background-color: #4e97d8;
+}
+
+
+#accordion section.ac_hidden p:not(.pointer) {
+  color: #fff;
+}
+
+#accordion section.ac_hidden {
+  height:36px;
+}
+
+#accordion .pointer {
+  padding:0;
+  margin:10px 10px 0 6px;
+  line-height:20px;
+  width:13px;
+  color: #fff;
+  float: right;
+}
+
+#accordion section:not(.ac_hidden) .pointer {
+  dsiplay:block;
+  -webkit-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  transform:rotate(90deg);
+  padding:0;
+}
+
+
+.flip-check, .flip-check2, .flip-check3, .flip-check4 {
+  position: absolute;
+  bottom: -15px;
+  left: 32%;
+  text-align: center;
+  background-color: none;
+}
+
